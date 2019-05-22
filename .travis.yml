@@ -18,9 +18,6 @@ cache:
   directories:
     - "node_modules"
 
-branches:
-  only: master
-
 notifications:
   email:
     on_success: never
