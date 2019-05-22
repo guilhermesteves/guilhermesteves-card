@@ -1,0 +1,41 @@
+sudo: false
+language: node_js
+node_js:
+  - "stable"
+
+install:
+  - npm install
+
+cache:
+  npm: true
+  directories:
+    - node_modules
+
+script:
+  - npm run lint
+
+cache:
+  directories:
+    - "node_modules"
+
+branches:
+  only: master
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+
+
+before_install:
+  - npm i -g makeshift && makeshift -s @guilhermesteves -r https://registry.npmjs.org
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+    branches:
+      only:
+      - master
+
