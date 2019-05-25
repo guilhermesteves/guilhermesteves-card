@@ -6,3 +6,7 @@
 ![PullRequests](https://img.shields.io/github/issues-pr/guilhermesteves/guilhermesteves.svg)
 
 # Cartão pessoal no NPX - Guilherme Esteves
+
+<p align="center">
+  <img src="https://i.imgsafe.org/94/94baf7bcd1.png"/>  
+</p>
