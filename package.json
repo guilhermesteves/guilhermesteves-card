@@ -1,6 +1,6 @@
 {
     "name": "guilhermesteves",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "description": "Cartão Pessoal do Guilherme Esteves (@guilhermesteves). Esse projeto foi baseado no repo do Tierney Cyren (@bitandbang)",
     "main": "index.js",
     "bin": {
@@ -21,20 +21,19 @@
     "homepage": "https://github.com/guilhermesteves/guilhermestevese#readme",
     "license": "MIT",
     "dependencies": {
-        "boxen": "^2.1.0",
-        "chalk": "^2.4.1",
-        "commander": "^2.19.0",
-        "lodash": "4.17.19",
-        "prettier": "^1.16.2"
+        "boxen": "^4.2.0",
+        "chalk": "^4.1.0",
+        "commander": "^6.1.0",
+        "prettier": "^2.1.2"
     },
     "devDependencies": {
-        "eslint": "^5.12.0",
-        "eslint-config-airbnb-base": "^13.1.0",
-        "eslint-config-standard": "^12.0.0",
-        "eslint-plugin-import": "^2.14.0",
-        "husky": "^1.3.1",
-        "lint-staged": "^8.1.1",
-        "standard": "^12.0.1"
+        "eslint": "^7.11.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.1",
+        "husky": "^4.3.0",
+        "lint-staged": "^10.4.1",
+        "standard": "^14.3.4"
     },
     "husky": {
         "hooks": {
@@ -43,8 +42,7 @@
     },
     "lint-staged": {
         "*.js": [
-            "prettier --write",
-            "git add"
+            "prettier --write"
         ]
     }
 }
