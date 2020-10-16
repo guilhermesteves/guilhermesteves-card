@@ -8,7 +8,7 @@
 # Cartão pessoal no NPX - Guilherme Esteves
 
 <p align="center">
-  <img src="https://i.imgsafe.org/94/94baf7bcd1.png"/>  
+  <img src="https://files.guilhermeesteves.com/images/guilhermesteves-card.png"/>  
 </p>
 
 Desenvolvimento de um package que simula um cartão pessoal. O exemplo foi baseado 
