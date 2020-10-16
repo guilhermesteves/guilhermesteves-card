@@ -1,6 +1,6 @@
 {
     "name": "guilhermesteves",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "description": "Cartão Pessoal do Guilherme Esteves (@guilhermesteves). Esse projeto foi baseado no repo do Tierney Cyren (@bitandbang)",
     "main": "index.js",
     "bin": {
@@ -24,7 +24,6 @@
         "boxen": "^2.1.0",
         "chalk": "^2.4.1",
         "commander": "^2.19.0",
-        "lodash": "4.17.19",
         "prettier": "^1.16.2"
     },
     "devDependencies": {
