@@ -12,8 +12,8 @@ const data = {
     value: chalk.white(`@${uname}`)
   },
   work: {
-    key: chalk.rgb(200, 62, 39).bold('      Work:'),
-    value: chalk.white('Tech Lead at QueroQuitar')
+    key: chalk.rgb(0, 188, 158).bold('      Work:'),
+    value: chalk.white('Software Engineer at PagSeguro')
   },
   web: {
     key: chalk.rgb(0, 87, 146).bold('       Web:'),
