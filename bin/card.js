@@ -9,40 +9,40 @@ const uname = 'guilhermesteves' // meu username
 const data = {
   head: {
     key: chalk.white('         Guilherme Esteves |'),
-    value: chalk.white(`@${uname}`)
+    value: chalk.rgb(0, 172, 238).bold(`@${uname}`),
   },
   work: {
     key: chalk.rgb(0, 188, 158).bold('      Work:'),
-    value: chalk.white('Software Engineer at PagSeguro')
+    value: chalk.white('Software Engineer at PagSeguro'),
   },
   web: {
     key: chalk.rgb(0, 87, 146).bold('       Web:'),
-    value: chalk.white(`https://${uname}.dev/`)
+    value: chalk.white(`https://${uname}.dev/`),
   },
   twitter: {
     key: chalk.rgb(0, 172, 238).bold('   Twitter:'),
-    value: chalk.white(`https://twitter.com/${uname}`)
+    value: chalk.white(`https://twitter.com/${uname}`),
   },
   github: {
     key: chalk.rgb(250, 251, 252).bold('    GitHub:'),
-    value: chalk.white(`https://github.com/${uname}`)
+    value: chalk.white(`https://github.com/${uname}`),
   },
   medium: {
     key: chalk.rgb(87, 173, 64).bold('    Medium:'),
-    value: chalk.white(`https://medium.com/@${uname}`)
+    value: chalk.white(`https://medium.com/@${uname}`),
   },
   instagram: {
     key: chalk.rgb(152, 84, 191).bold(' Instagram:'),
-    value: chalk.white(`https://www.instagram.com/${uname}`)
+    value: chalk.white(`https://www.instagram.com/${uname}`),
   },
   linkedin: {
     key: chalk.rgb(14, 118, 168).bold('  LinkedIn:'),
-    value: chalk.white(`https://www.linkedin.com/in/${uname}`)
+    value: chalk.white(`https://www.linkedin.com/in/${uname}`),
   },
   card: {
     key: chalk.rgb(205, 59, 41).bold('      Card:'),
-    value: chalk.white(`npx ${uname}`)
-  }
+    value: chalk.white(`npx ${uname}`),
+  },
 }
 
 const output = [
@@ -65,7 +65,7 @@ const output = [
   `${data.linkedin.key} ${data.linkedin.value}`,
   newline,
   newline,
-  `${data.card.key} ${data.card.value}`
+  `${data.card.key} ${data.card.value}`,
 ].join('')
 
 const options = {
@@ -74,7 +74,7 @@ const options = {
   borderStyle: 'double',
   float: 'center',
   borderColor: '#005792',
-  backgroundColor: 'black'
+  backgroundColor: 'black',
 }
 
 console.log(chalk.green(boxen(output, options)))
